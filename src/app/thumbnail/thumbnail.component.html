@@ -1,0 +1,20 @@
+<div id="m1" class="masthead-content text-white py-5 py-md-0">
+  <h1 class="mb-3">Need to generate a thumbnail?</h1>
+  <p class="mb-5">Use
+    <strong>Sqiz.io</strong>, Paste your link down below!</p>
+
+  <form [formGroup]="myform" (ngSubmit)="onSubmit(myform.value)">
+    <div class="input-group input-group-newsletter">
+      <input type="email" class="form-control" formControlName="prl" placeholder="https://www.example.com"
+        aria-label="Enter email..." aria-describedby="basic-addon">
+      <div class="input-group-append">
+        <button class="btn btn-secondary" title="Shorten link!" type="submit">Shorten</button>
+      </div>
+    </div>
+
+  </form>
+</div>
+
+
+
+
